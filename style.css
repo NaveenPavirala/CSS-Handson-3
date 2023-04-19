@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topcontainer {
+    width: 100%;
+    border-bottom: 10px double gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: -15px;
+}
+
+.box1 {
+    width: 400px;
+    height: 150px;
+    border: 7px solid rgb(235, 28, 28);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 8px 8px 0px 0px purple;
+    font-style: italic;
+    color: rgb(167, 21, 21);
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    line-height: 40px;
+    text-shadow: 1px 2px 3px purple;
+}
+
+.midcontainer {
+    width: 100%;
+    height: 650px;
+    border: 7px solid rgb(6, 102, 6);
+    margin-top: 35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 250px;
+    width: 240px;
+    border: 7px solid rgb(235, 28, 28);
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 8px 8px 0px 0px purple;
+    font-size: x-large;
+    font-weight: bold;
+    color: black;
+    text-shadow: 1px 2px 2px purple;
+}
+
+#img {
+    height: 160px;
+    width: 180px;
+    border: 2px solid black;
+}
+
+.box2 {
+    float: left;
+    text-align: center;
+    padding-top: 15px;
+    line-height: 40px;
+}
+
+.box3 {
+    position: relative;
+    left: 730px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.box4 {
+    position: relative;
+    top: 350px;
+    left: -480px;
+    padding-top: 10px;
+}
+
+.box5 {
+    position: relative;
+    top: 350px;
+    right: -250px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.rate {
+    font-size: small;
+}
+
+.form {
+    text-align: center;
+    padding-top: 15px;
+    line-height: 17px;
+}
+
+#rating {
+    height: 20px;
+    width: 120px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#submit {
+    height: 20px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(245, 52, 52);
+}
+
+.centerbox {
+    display: flex;
+    height: 90px;
+    width: 500px;
+    border-radius: 15px;
+    border: 7px solid rgb(235, 28, 28);
+    background-color: yellowgreen;
+    box-shadow: 8px 8px 0px 0px purple;
+    position: fixed;
+    left: 28%;
+    bottom: 30px;
+}
+
+.Box {
+    height: 70px;
+    width: 500px;
+    border: 2px solid yellowgreen;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 50px;
+    text-align: center;
+    line-height: 20px;
+    font-style: italic;
+    color: rgb(136, 17, 17);
+}
+
+.offer {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.discount {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.bottomcontainer {
+    height: 540px;
+    width: 630px;
+    border: 7px solid purple;
+    background-color: rgb(17, 112, 17);
+    display: block;
+    position: relative;
+    left: 320px;
+    top: 15px;
+}
+
+.boxfruit {
+    height: 200px;
+    width: 300px;
+    float: left;
+    border: 2px solid rgb(241, 234, 129);
+    background-color: rgb(241, 234, 129);
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.boxveg {
+    float: right;
+    height: 200px;
+    width: 300px;
+    border: 2px solid rgb(241, 234, 129);
+    background-color: rgb(241, 234, 129);
+    position: absolute;
+    top: 80px;
+    right: 5px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.boxother {
+    clear: both;
+    height: 230px;
+    width: 620px;
+    border: 2px solid rgb(241, 234, 129);
+    background-color: rgb(241, 234, 129);
+    position: absolute;
+    top: 290px;
+    left: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px;
+}
+
+h3 {
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.para {
+    text-transform: uppercase;
+    font-size: small;
+    font-style: italic;
+}
